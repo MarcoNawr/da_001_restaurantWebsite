@@ -1,0 +1,265 @@
+/* ============================================================================================
+   Allgemein
+============================================================================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-family: "Dancing Script", "Roboto", sans-serif;
+    font-size: 6rem;
+    color: #f5fd40;
+    filter: drop-shadow(2px 4px 6px #FF6B6B);
+    padding: 20px;
+}
+
+h2 {
+    font-family: "Dancing Script", "Roboto", sans-serif;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.containerImpressum h1 {
+    font-family: "Roboto", sans-serif;
+    filter: none;
+    color: black;
+    font-size: 2rem;
+}
+
+.containerImpressum h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+}
+
+.containerDatenschutz h1 {
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    filter: none;
+    color: black;
+}
+
+.containerDatenschutz h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+}
+
+.container {
+    padding: 20px;
+}
+
+.container p {
+    padding: 20px;
+}
+
+/* ============================================================================================
+    header
+============================================================================================= */
+header {
+    height: 80px;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2925;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    object-fit: fill;
+}
+
+header ul {
+    display: flex;
+    gap: 3rem;
+
+}
+
+header li {
+    list-style: none;
+    color: white;
+}
+
+li a {
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #f5fd40;
+    filter: drop-shadow(2px 4px 6px #FF6B6B);
+}
+
+#bestellBTN {
+    background-color: #f5fd40;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    color: black;
+    padding: 5px 20px;
+}
+
+#bestellBTN:hover {
+    background-color: #e1eb26;
+    filter: none;
+}
+
+/* ============================================================================================
+    mainContent & Oefnungszeiten
+============================================================================================= */
+
+.containerMainContent,
+.containerOefnungszeiten {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerMainContent {
+    height: 80vh;
+}
+
+.containerMainContentText {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 80vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.containerMainContentText h1 {
+    margin-top: 250px;
+}
+
+
+.containerMainContent p {
+    padding: 30px;
+}
+
+.containerMainContent img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+
+/* ============================================================================================
+    Tageskarte
+============================================================================================= */
+
+.containerTageskarte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dadbdb;
+
+}
+
+.tableTageskarte {
+    width: 700px;
+}
+
+.tableHead {
+    background-color: rgb(27, 182, 182);
+}
+
+.preis {
+    font-weight: bolder;
+}
+
+.spalteGericht {
+    width: 200px;
+    padding: 8px;
+}
+
+.spaltePreis {
+    width: 100px;
+    text-align: center;
+    padding: 8px;
+}
+
+.spalteBeschreibung {
+    width: 500px;
+    padding: 8px;
+}
+
+/* ============================================================================================
+    Contact
+============================================================================================= */
+.containerContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ============================================================================================
+    Iframe
+============================================================================================= */
+.iframeContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dadbdb;
+}
+
+
+iframe {
+    width: 50vw;
+}
+
+/* ============================================================================================
+    footer
+============================================================================================= */
+footer {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: #1f2925;
+    color: white;
+}
+
+footer a,
+.containerMainContentText a {
+    text-decoration: none;
+    color: #b4b8b6;
+}
+
+footer a:hover,
+.containerMainContentText a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* ============================================================================================
+    Datenschutz
+============================================================================================= */
+.containerDatenschutz {
+    margin: 0 auto;
+    width: 70vw;
+}
+
+/* ============================================================================================
+    Impressum
+============================================================================================= */
+.containerImpressum {
+    margin: 0 auto;
+    width: 70vw;
+}

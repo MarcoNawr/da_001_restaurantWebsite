@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /img/
+Disallow: /downloads/
+Disallow: /datenschutz.html
+Disallow: /impressum.html
+Disallow: /developerAkademieAbsprung.html
+Disallow: /style.css
